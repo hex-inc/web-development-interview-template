@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  margin: 0;
+  padding: 10px;
+}
+
+.notebook {
+  border: 1px solid black;
+  padding: 10px;
+}
